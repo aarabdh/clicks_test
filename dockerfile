@@ -20,6 +20,7 @@ FROM ubuntu:22.04
 # "Get the latest APT packages"
 # "apt-get update"
 RUN apt-get update
+RUN apt-get upgrade
 
 # "#################################################"
 # "Install Ubuntu prerequisites for Ruby and GitHub Pages (Jekyll)"
